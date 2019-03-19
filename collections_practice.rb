@@ -28,8 +28,8 @@ def kesha_maker(array)
   newArray
 end
 
-def find_a()
-
+def find_a(array)
+  array.select {s.start_with?("a")}
 end
 
 def sum_array()

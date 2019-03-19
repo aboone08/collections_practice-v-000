@@ -30,8 +30,8 @@ describe 'collections practice' do
     end
   end
 
-  # Question 4 Advanced 
-  describe '#swap_elements_from_to' do 
+  # Question 4 Advanced
+  describe '#swap_elements_from_to' do
     it 'specify the index of the element you would like to move to a new index' do
       expect(swap_elements_from_to(["a", "b", "c"], 0,2)).to eq(["c", "b", "a"])
     end

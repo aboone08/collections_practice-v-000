@@ -14,12 +14,18 @@ def swap_elements(array)
   array.sort {|a,b| a[1] <=> b[2]}
 end
 
+def swap_elements_from_to(array, index, destination_index)
+  
+end 
+
 def reverse_array(array)
   array.reverse 
 end
 
 def kesha_maker(array)
-
+  newArray = []
+  array.each {|item| result << item.slice(0,2) + "$" + item.slice(3..item.length)}
+  newArray
 end
 
 def find_a()

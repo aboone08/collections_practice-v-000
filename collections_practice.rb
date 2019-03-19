@@ -14,7 +14,7 @@ def swap_elements(array)
   array.sort {|a,b| a[1] <=> b[2]}
 end
 
-def swap_elements_from_to(array, index, destination_index)
+def swap_elements_from_to(array)
   array.sort {|a,b| a[1] <=> b[2] }
 end
 

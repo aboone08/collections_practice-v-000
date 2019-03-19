@@ -24,7 +24,7 @@ end
 
 def kesha_maker(array)
   newArray = []
-  array.each {|item| result << item.slice(0,2) + "$" + item.slice(3..item.length)}
+  array.each {|item| newArray << item.slice(0,2) + "$" + item.slice(3..item.length)}
   newArray
 end
 
